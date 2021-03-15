@@ -132,6 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1473435412}
+  - component: {fileID: 1473435413}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -153,6 +154,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1473435413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473435411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc2fd105fdce44deab5b5f385cf27d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ball: {fileID: -1467065706985195901, guid: 993e1007f55234e708b0b942d0fc3441, type: 3}
+  paddle: {fileID: 1771843718489950119, guid: b3cace6831c3b40558247f4a7bf5b3f6, type: 3}
 --- !u!1 &1920715360
 GameObject:
   m_ObjectHideFlags: 0
